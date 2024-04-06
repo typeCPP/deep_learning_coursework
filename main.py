@@ -10,7 +10,7 @@ from keras.models import load_model
 # Чтение csv файла с классами знаков
 labels = pd.read_csv('input/traffic-signs-preprocessed/label_names.csv')
 
-model = load_model('model-3x3.h5')
+model = load_model('model-5x5.h5')
 
 # Загрузка среднего изображения для дальнейшей предобработки
 # Открытие файла для чтения в бинарном режиме

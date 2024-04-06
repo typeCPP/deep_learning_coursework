@@ -5,4 +5,4 @@ data = prepare_data()
 model = compile_model((5, 5))
 model = fit_model(model=model, data=data)
 
-keras.models.save_model(model, "model-3x3.h5")
+keras.models.save_model(model, "model-5x5.h5")
