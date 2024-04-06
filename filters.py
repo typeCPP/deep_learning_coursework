@@ -2,7 +2,7 @@ from utils import prepare_data, compile_model, fit_model
 
 data = prepare_data()
 
-filters = [3, 5, 9, 13, 15, 19, 23, 25, 31]
+filters = [(3, 3), (5, 5), (9, 9), (13, 13), (15, 15), (19, 19), (23, 23), (25, 25), (31, 31)]
 model = [0] * len(filters)
 
 for i in range(len(filters)):
